@@ -4,18 +4,20 @@
 This is a visual Lorenz Attractor Model Simulator which offers the user full control over the parameters - Sigma, Beta & Rho, along with initial positions.
 
 The App allows simulating two lorenz models in a 3d interactive plotly graph:
+<img width="943" height="891" alt="image" src="https://github.com/user-attachments/assets/2769140f-ea9c-48d7-a92a-3833ac8ad8ec" />
+
 
 And another feature the user can explore is the **Predictability Horizon**:
+<img width="948" height="921" alt="image" src="https://github.com/user-attachments/assets/c3d497d9-fa95-4338-8fa0-6681a83c35c5" />
 
-This is defined (by me) as the earliest time at which the correlation between two Lorenz trajectories falls below a fixed threshold and remains below that threshold for a sustained duration, indicatin[...]
+
+This is defined (by me) as the earliest time at which the correlation between two Lorenz trajectories falls below a fixed threshold and remains below that threshold for a sustained duration, indicating 
+a persistent loss of reliable predictability rather than a transient fluctuation.
 
 For the example shown above, the horizon plot demonstrating the threshold (horizontal -- line) and the time (vertical red line) at which the horizon is significantly crossed:
 
-This project was purely motivated by personal curiosity within lorenz attractor systems and to understand (and tinker with) the different values of the constants pertaining to different system behavio[...]
-
-## How to Run
-
----
+This project was purely motivated by personal curiosity within lorenz attractor systems and to understand (and tinker with) the different values of the constants pertaining to different system behaviors along 
+with an added research feature as my own twist.
 
 ## Installation
 
