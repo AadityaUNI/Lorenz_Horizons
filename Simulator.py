@@ -398,8 +398,3 @@ class Simulator:
                 self.runPredictabilityHorizonsMenu()
             else:
                 return
-
-
-if (__name__ == "__main__"):
-    sim = Simulator()
-    sim.runFeatureMenu()
