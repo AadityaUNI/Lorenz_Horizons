@@ -58,3 +58,31 @@ These are defined in `Simulator.py` as `PreDefMap` and labeled via `BehaviorMap`
   - Label: "Chaotic Bursts"
 
 > Note: all presets currently use the same default initial state `x=y=z=1` unless you choose custom initial values.
+
+## A little guide for tinkering with your own constants ;)
+**σ (sigma)**
+
+Controls how fast x reacts to y:
+
+small σ → slow correction → damping
+
+large σ → aggressive correction → overshoot
+
+**ρ (rho)**
+
+Controls how much y gets amplified:
+
+small ρ → feedback weak → stability
+
+large ρ → feedback strong → runaway divergence
+
+**β (beta)**
+
+Controls how fast z damps energy:
+
+large β → strong damping → stability
+
+small β → weak damping → chaos
+
+**So constants tune:**
+**how hard the loop pushes vs how hard it resists**
