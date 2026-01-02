@@ -133,7 +133,9 @@ class Plotter:
         
     @classmethod
     def plotCorrelation(cls, corrArr, timeArr, horizonTime, threshold):
-        fig = px.line(x=timeArr, y=corrArr)
+        fig = px.line(x=timeArr, y=corrArr,labels={"x": "Time", "y": "Correlation"},
+            title="Correlation vs Time" )
+        
         fig.add_hline(threshold, line_dash="dot", line_color="blue", annotation_text="Under = Unpredictable")
         fig.add_vline(horizonTime, line_dash="dash", line_color="red", annotation_text="Horizon to significant unpredictability")
         fig.show()
