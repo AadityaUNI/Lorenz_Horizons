@@ -34,6 +34,8 @@ pip install -r requirements.txt
 python app.py
 ```
 
+### NOTE: If you have a default browser installed in your IDE, it will automatically open a window otherwise you will have to open the localhost on any browser manually.
+
 ## Presets (pre-defined values)
 The simulator includes a small set of pre-defined parameter presets (Sigma, Beta, Rho) used to demonstrate different Lorenz attractor behaviors.
 
